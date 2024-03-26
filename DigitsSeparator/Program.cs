@@ -7,12 +7,6 @@ class Program
         Console.Write("Enter an integer between 1 and 99999: ");
         int number = int.Parse(Console.ReadLine());
 
-        if (number < 1 || number > 99999)
-        {
-            Console.WriteLine("Invalid input.");
-            return;
-        }
-
         DisplayDigits(number);
     }
 
